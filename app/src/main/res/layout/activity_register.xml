@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:padding="24dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Register"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/regsNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter your full name"
+        android:layout_marginTop="32dp"
+        />
+    <EditText
+        android:id="@+id/regsCityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter your city"
+        android:layout_marginTop="32dp"
+        />
+    <EditText
+        android:id="@+id/regsCountryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter your country"
+        android:layout_marginTop="32dp"
+        />
+    <EditText
+        android:id="@+id/regsPhoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Enter your phone number"
+        android:layout_marginTop="32dp"
+        />
+    <EditText
+        android:id="@+id/regsEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Enter your email address"
+        android:layout_marginTop="32dp"
+        />
+
+    <EditText
+        android:id="@+id/regsPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter your password"
+        android:layout_marginTop="32dp"
+        />
+    <Button
+        android:id="@+id/regsRegisterBtn"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>
